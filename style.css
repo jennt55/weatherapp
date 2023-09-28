@@ -1,0 +1,68 @@
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.form-group {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+button {
+  border-radius: 6px;
+  background-color: #ee9ca7;
+  border: #fff;
+  color: #fff;
+  margin: 5px 5px;
+}
+
+.card-title {
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+}
+.card {
+  text-align: center;
+  font-size: 10px;
+  width: 100px;
+}
+.weatherDays {
+  display: grid;
+  width: 600px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  font-size: 10px;
+  margin: 5px 0;
+}
+.container {
+  background-color: #fdfdcb;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: black;
+  display: block;
+  margin: 20px auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+footer {
+  text-align: center;
+  padding: 10px 0;
+}
+.col {
+  display: grid;
+  width: 600px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  margin: 5px 0;
+}
